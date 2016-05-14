@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDeviceIdentityManager", "AzureDeviceIdentityManager\AzureDeviceIdentityManager.csproj", "{02335318-F5BD-4A2E-AA4A-96B21FBF578E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDeviceSimulator", "AzureDeviceSimulator\AzureDeviceSimulator.csproj", "{F520DC3D-80A3-45D7-9E82-55B3E86AA938}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{02335318-F5BD-4A2E-AA4A-96B21FBF578E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02335318-F5BD-4A2E-AA4A-96B21FBF578E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02335318-F5BD-4A2E-AA4A-96B21FBF578E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F520DC3D-80A3-45D7-9E82-55B3E86AA938}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F520DC3D-80A3-45D7-9E82-55B3E86AA938}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F520DC3D-80A3-45D7-9E82-55B3E86AA938}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F520DC3D-80A3-45D7-9E82-55B3E86AA938}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
