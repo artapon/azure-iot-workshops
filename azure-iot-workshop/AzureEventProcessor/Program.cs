@@ -11,6 +11,9 @@ namespace AzureEventProcessor
             const string eventHubName = "labs-event-hub";
             const string storageAccountName = "azureiotlabsstorage";
             const string storageAccountKey = "j96FwjBLcwHZzfWJ3go+72dWN0q3QxU817JJVReVCB6cexIr5SJ0cVpnaIwF0Ja6ozw21sKI5yuBdY7RVurbFg==";
+            //
+            // connectionStrings goes here.
+            //
             var storageConnectionString =$"DefaultEndpointsProtocol=https;AccountName={storageAccountName};AccountKey={storageAccountKey}";
             var eventProcessorHostName = Guid.NewGuid().ToString();
 
