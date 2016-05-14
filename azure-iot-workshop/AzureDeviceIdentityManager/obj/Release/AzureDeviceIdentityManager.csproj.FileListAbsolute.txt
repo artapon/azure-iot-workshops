@@ -1,0 +1,16 @@
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\AzureDeviceIdentityManager.exe.config
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\AzureDeviceIdentityManager.exe
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\AzureDeviceIdentityManager.pdb
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\Microsoft.Azure.Amqp.dll
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\Microsoft.Azure.Devices.dll
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\Newtonsoft.Json.dll
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\System.Net.Http.Formatting.dll
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\System.Web.Http.dll
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\Microsoft.Azure.Amqp.xml
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\Microsoft.Azure.Devices.xml
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\Newtonsoft.Json.xml
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\System.Net.Http.Formatting.xml
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\bin\Release\System.Web.Http.xml
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\obj\Release\AzureDeviceIdentityManager.csprojResolveAssemblyReference.cache
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\obj\Release\AzureDeviceIdentityManager.exe
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceIdentityManager\obj\Release\AzureDeviceIdentityManager.pdb

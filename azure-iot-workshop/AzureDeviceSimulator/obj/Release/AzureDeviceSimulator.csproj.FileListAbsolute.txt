@@ -19,3 +19,4 @@ D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceSimulator\bin\Rele
 D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceSimulator\bin\Release\Validation.xml
 D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceSimulator\obj\Release\AzureDeviceSimulator.exe
 D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceSimulator\obj\Release\AzureDeviceSimulator.pdb
+D:\Projects\azure-iot-workshops\azure-iot-workshop\AzureDeviceSimulator\obj\Release\AzureDeviceSimulator.csprojResolveAssemblyReference.cache
