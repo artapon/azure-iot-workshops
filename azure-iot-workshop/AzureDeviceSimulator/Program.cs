@@ -8,14 +8,13 @@ namespace AzureDeviceSimulator
 {
     internal class Program
     {
-        private static Random random;
+        private const double averageWndSpeed = 10; // m/s
         private static bool isConnected;
         private static DeviceClient deviceClient;
         private static bool isListening;
 
         private static void Main(string[] args)
         {
-            random = new Random();
             var userInput = -1;
             string connectionString = null;
             string deviceId = null;
@@ -128,10 +127,11 @@ namespace AzureDeviceSimulator
 
         private static string GetSensorData(string deviceId)
         {
-            var temperature = random.NextDouble()*25 + 4;
-            var humidity = random.NextDouble()*55 + 4;
-            var windSpeed = random.NextDouble()*25 + 5;
-            var raning = random.Next(0, 1) > 0;
+            Random random = new Random();
+            var temperature = 22 + random.NextDouble() * 22 - 4;
+            var humidity = 55 + random.NextDouble() * 55 - 4;
+            var windSpeed  = averageWndSpeed + random.NextDouble() * 4 - 2;
+            var raning = random.Next(0, 60) > 50;
 
             var telemetry = new
             {
