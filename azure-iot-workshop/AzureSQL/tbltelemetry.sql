@@ -1,4 +1,5 @@
-﻿USE [telemetry]
+﻿drop table tbltelemetry
+USE [telemetry]
 GO
 
 SET ANSI_NULLS ON
@@ -14,7 +15,6 @@ CREATE TABLE [dbo].[tbltelemetry] (
     [Humidity]    FLOAT (53)    NULL,
     [Temperature] FLOAT (53)    NULL,
     [WindSpeed]   FLOAT (53)    NULL,
-    [Raining]     SMALLINT      NULL
+    [Raining]     INT      NULL
 );
-
 
