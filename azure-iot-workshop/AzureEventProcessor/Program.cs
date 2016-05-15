@@ -5,6 +5,7 @@ namespace AzureEventProcessor
 {
     internal class Program
     {
+
         private static void Main(string[] args)
         {
             const string eventHubConnectionString = "Endpoint=sb://labs-event-hub-ns.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=nWuOyVHIqCaG4pcuGLuOL2FPCtQjzUZReo4sXgLehDM=";

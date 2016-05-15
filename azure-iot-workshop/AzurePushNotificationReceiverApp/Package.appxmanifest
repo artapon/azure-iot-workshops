@@ -1,49 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
-<Package
-  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
-  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
-  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  IgnorableNamespaces="uap mp">
-
-  <Identity
-    Name="edc36762-3e46-4600-8144-90e37a43dfc0"
-    Publisher="CN=Patrick Shim"
-    Version="1.0.0.0" />
-
-  <mp:PhoneIdentity PhoneProductId="edc36762-3e46-4600-8144-90e37a43dfc0" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
-
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="13202MicrosoftFTE.AzuretoUWPPushNotification" Publisher="CN=52F52F33-D70E-4E78-92D4-1E7486F9F390" Version="1.1.0.0" />
+  <mp:PhoneIdentity PhoneProductId="edc36762-3e46-4600-8144-90e37a43dfc0" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
-    <DisplayName>AzurePushNotificationReceiverApp</DisplayName>
-    <PublisherDisplayName>Patrick Shim</PublisherDisplayName>
+    <DisplayName>Azure to UWP Push Notification</DisplayName>
+    <PublisherDisplayName>Placeholder_4508</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
-
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
-
   <Resources>
-    <Resource Language="x-generate"/>
+    <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application Id="App"
-      Executable="$targetnametoken$.exe"
-      EntryPoint="AzurePushNotificationReceiverApp.App">
-      <uap:VisualElements
-        DisplayName="AzurePushNotificationReceiverApp"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png"
-        Description="AzurePushNotificationReceiverApp"
-        BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"/>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="AzurePushNotificationReceiverApp.App">
+      <uap:VisualElements DisplayName="Azure to UWP Push Notification" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="AzurePushNotificationReceiverApp" BackgroundColor="transparent">
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png">
+        </uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
       </uap:VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
+    <Capability Name="internetClientServer" />
   </Capabilities>
 </Package>

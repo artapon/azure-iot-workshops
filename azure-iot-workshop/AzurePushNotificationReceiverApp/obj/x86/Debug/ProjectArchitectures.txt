@@ -1,0 +1,1 @@
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzurePushNotificationReceiverApp\AzurePushNotificationReceiverApp.csproj;x86

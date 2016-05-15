@@ -1,0 +1,7 @@
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\bin\Debug\AzureSQL.dacpac
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\obj\Debug\Model.xml
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\obj\Debug\refactor.xml
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\obj\Debug\postdeploy.sql
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\obj\Debug\predeploy.sql
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\obj\Debug\AzureSQL.dll
+C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzureSQL\obj\Debug\AzureSQL.pdb
