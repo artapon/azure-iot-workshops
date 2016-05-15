@@ -26,5 +26,10 @@
   <ItemGroup>
     <Folder Include="Dependencies\" />
   </ItemGroup>
+  <ItemGroup>
+    <Script Include="AzureBlobLinkedService.json" />
+    <Script Include="OnPremisesFileServer.json" />
+    <Script Include="OnPremisesSqServerjson.json" />
+  </ItemGroup>
   <Import Project="$(AppData)\Microsoft\DataFactory Tools for Visual Studio\MsBuild\1.0\DataFactory.targets" />
 </Project>

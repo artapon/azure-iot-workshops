@@ -1,0 +1,10 @@
+﻿{
+  "name": "AzureBlobLinkedService",
+  "properties": {
+    "type": "AzureStorage",
+    "description": "Linked Service To Azure Blob",
+    "typeProperties": {
+      "connectionString": "DefaultEndpointsProtocol=https;AccountName=azureiotlabsstorage;AccountKey=j96FwjBLcwHZzfWJ3go+72dWN0q3QxU817JJVReVCB6cexIr5SJ0cVpnaIwF0Ja6ozw21sKI5yuBdY7RVurbFg=="
+    }
+  }
+}

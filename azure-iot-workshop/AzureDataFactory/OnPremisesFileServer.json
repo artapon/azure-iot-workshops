@@ -1,0 +1,14 @@
+﻿{
+  "name": "OnPremFileServer",
+  "properties": {
+    "description": "OnPrem File Server",
+    "hostServiceUri": "https://vm-gw-filesvr:8050/HostServiceRemote.svc/",
+    "dataFactoryName": "labs-datafactory",
+    "status": "Online",
+    "versionStatus": "UpToDate",
+    "version": "1.10.5892.1",
+    "registerTime": "2016-05-14T23:58:05.1308671Z",
+    "lastConnectTime": "2016-05-15T00:07:05.7048039Z",
+    "lastUpgradeResult": ""
+  }
+}
