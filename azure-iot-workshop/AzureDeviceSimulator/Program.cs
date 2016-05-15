@@ -3,6 +3,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Azure.Devices.Client;
 using Newtonsoft.Json;
+using System.Timers;
+using System.Threading;
 
 namespace AzureDeviceSimulator
 {
@@ -58,6 +60,29 @@ namespace AzureDeviceSimulator
                         Task.Run(async () => await RecieveMessageFromCloudAsync());
                         break;
                     case 5:
+
+
+                        int interval = 0;
+                        int loop = 0;
+
+                        Console.Write("Interval: ");
+                        var userInterval = Console.ReadLine();
+                        Console.Write("Number of Messages: ");
+                        var userMessage = Console.ReadLine();
+
+                        if ( (int.TryParse(userInterval, out interval)) && (int.TryParse(userMessage, out loop) ) )
+                        
+                        {
+                            SendBatchTelemetryAtInterval(deviceId, interval, loop).Wait();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Invalid interval value entered...");
+                        }
+                        
+                        
+                        break;
+                    case 6:
                         DisconnectFromAzureIoTHubAsync().Wait();
                         break;
                     default:
@@ -70,6 +95,32 @@ namespace AzureDeviceSimulator
             } while (userInput != 0);
         }
 
+        
+
+        private static async Task SendBatchTelemetryAtInterval(string deviceId, int interval, int loop)
+        {
+            if (isConnected)
+            {
+                int count = 0;
+                do
+                {
+                    try
+                    {
+                        await SendTelemetryData(GetSensorData(deviceId));
+                        Console.WriteLine($"{count} telemetries sent to Azure IoT Hub...");
+                    }
+                    catch (Exception e)
+                    {
+                        Console.WriteLine("An error occurred while sending messages to Azure IoT Hub: " + e.Message);
+                    }
+                    Thread.Sleep(interval * 1000);
+                } while (count++ < loop);
+            }
+            else
+            {
+                Console.WriteLine("Connection to Azure IoT Hub has NOT been established.  Please connect before sending messages...");
+            }
+        }
         private static int UserPrompt()
         {
             var userInput = 0;
@@ -77,7 +128,8 @@ namespace AzureDeviceSimulator
             Console.WriteLine(" 2) to Send X number of telemetries");
             Console.WriteLine(" 3) to Connect to IoT Hub");
             Console.WriteLine(" 4) to listen to Cloud messages");
-            Console.WriteLine(" 5) to Disconnect from IoT Hub");
+            Console.WriteLine(" 5) to Send x messages at y interval in seconds (x and y to be prompted.");
+            Console.WriteLine(" 6) to Disconnect from IoT Hub");
             Console.WriteLine(" 0) to exit");
             Console.Write("Enter your choice: ");
             return int.TryParse(Console.ReadLine(), out userInput) ? userInput : -1;
