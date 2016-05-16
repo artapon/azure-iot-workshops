@@ -23,7 +23,7 @@ namespace AzureDeviceSimulator
             string hostName = null;
             string deviceKey = null;
 #if DEBUG
-            connectionString = "HostName=labs-iot-hub.azure-devices.net;DeviceID=device-001;SharedAccessKey=nEGambHYUyyVgF/FmZoW6eAGVQszuUJbus7IRWVNPMA=";
+            connectionString = "<YOUR STRING>";
             deviceId = "device-001";
 #else
             Console.Write("Enter Device ID: ");
