@@ -22,13 +22,13 @@
     <AppXManifest Include="C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzurePushNotificationReceiverApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-05-15T12:49:48.398</Modified>
+      <Modified>2016-05-15T14:33:39.375</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzurePushNotificationReceiverApp\bin\x86\Debug\AzurePushNotificationReceiverApp.exe">
       <PackagePath>entrypoint\AzurePushNotificationReceiverApp.exe</PackagePath>
-      <Modified>2016-05-15T12:49:46.039</Modified>
+      <Modified>2016-05-15T14:33:37.193</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pashim\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -510,11 +510,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzurePushNotificationReceiverApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-05-15T12:49:47.766</Modified>
+      <Modified>2016-05-15T14:33:38.820</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pashim\Source\Repos\azure-iot-workshops\azure-iot-workshop\AzurePushNotificationReceiverApp\bin\x86\Debug\Core\AzurePushNotificationReceiverApp.exe">
       <PackagePath>AzurePushNotificationReceiverApp.exe</PackagePath>
-      <Modified>2016-05-15T12:49:48.389</Modified>
+      <Modified>2016-05-15T14:33:39.367</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

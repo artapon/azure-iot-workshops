@@ -30,7 +30,8 @@ namespace AzureEventProcessor
     [DataContract]
     public class ReceivedData
     {
-        [DataMember] public string MessageType { get; set; }
+        [DataMember]
+        public string MessageType { get; set; }
         [DataMember]
         public object DeviceId { get; set; }
         [DataMember]
@@ -70,7 +71,7 @@ namespace AzureEventProcessor
 
         private async Task SendNotificationAsync(string message)
         {
-            var toast = @"<toast><visual><binding template=""ToastText01""><text id=""1"">Hello from a .NET App!</text></binding></visual></toast>";
+            var toast = @"<toast><visual><binding template=""ToastText01""><text id=""1"">Vincent, it's raining. Take your umbrella</text></binding></visual></toast>";
             await hub.SendWindowsNativeNotificationAsync(toast);
         }
 

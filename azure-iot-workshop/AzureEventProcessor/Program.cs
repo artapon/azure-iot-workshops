@@ -18,7 +18,7 @@ namespace AzureEventProcessor
             var storageConnectionString =$"DefaultEndpointsProtocol=https;AccountName={storageAccountName};AccountKey={storageAccountKey}";
             var eventProcessorHostName = Guid.NewGuid().ToString();
 
-            var eventProcessorHost = new EventProcessorHost(eventProcessorHostName, eventHubName, EventHubConsumerGroup.DefaultGroupName, eventHubConnectionString, storageConnectionString);
+            var eventProcessorHost = new EventProcessorHost("TEM", eventHubName, EventHubConsumerGroup.DefaultGroupName, eventHubConnectionString, storageConnectionString);
             Console.WriteLine("Registering EventProcessor...");
 
             var options = new EventProcessorOptions();
